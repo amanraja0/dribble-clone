@@ -43,11 +43,11 @@ var returnvalue = true;
 }*/
 
 function redirectToPage3() { 
-    window.location.href = "file:///C:/Users/amanr/OneDrive/Desktop/project/thirdpage.html"; 
+    window.location.href = "thirdpage.html"; 
   } 
    
 function redirectToPage4() { 
-    window.location.href = "file:///C:/Users/amanr/OneDrive/Desktop/project/4th.html"; 
+    window.location.href = "4th.html"; 
   } 
 
 
