@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dribbble</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/mona-sans" rel="stylesheet">
+</head>
+<body>
+  <div class="mainbox">
+    <div class="imagebox">
+      <div class="logo">
+        <img src="dribblelogo.png" alt="Logo">
+      </div>
+      <img src="C:\Users\amanr\OneDrive\Desktop\project\dribble.png" alt="Art by Raja">
+      <!--<video playsinline="" loop="video" autoplay="" muted="" src="dribble.mp4">
+      </video>-->
+      
+    </div>
+
+    <div class="textbox">
+    <h2>Sign up to Dribbble</h2>  
+      <form onsubmit="return formValidation()" name="myForm" method="post">
+        <div class="user_info">
+          <div class="user_name" id="name">
+          <label>Name</label>
+          <input type="text" name="name" required><span class="error"></span>
+          </div>
+          <div class="user_name" id="uname">
+          <label>Username</label>
+          <input type="text" name="username" required>
+          </div>
+        </div>
+        <div class="email" id="email">
+          <label>Email</label>
+          <input type="email" name="email" required><span class="error"></span>
+        </div>
+        <div class="password" id="pass">
+          <label>Password</label>
+          <input type="password" name="newpassword" placeholder="8+ characters"><span class="error"></span>
+        </div>
+        <!--<button>Create Account</button>-->
+        <div class="checkbox" id="terms">
+          <input type="checkbox" name="terms_condition" required>
+            <div class="user_agree_to_terms">
+            I agree with Dribbble's
+            <a target="_blank" href="/terms">Terms of Service</a>,
+            <a target="_blank" href="/privacy">Privacy Policy</a>, and default
+            <a target="_blank" href="/notifications">Notification Settings</a>.
+            </div>
+        </div>
+        <div class="submit-btn">
+        <button type="submit" class="createAcc" formaction="C:\Users\amanr\OneDrive\Desktop\project\profilepage.html">Create Account</button>
+        </div>
+        <p>Already a member? <a href="#">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
